@@ -39,22 +39,12 @@ dsh plugin --profile web add <本插件目录或 file:/link: 路径>
 - 宿主服务：`ctx.dshFavourite`（snapshot / toggle / setPinned / isFavorited）
 - fork 继承：监听 `session/created`，`header.parentSession` 且 `isSeeded` 且非 `subagent` 时继承
 
-## 测试
-
-```powershell
-node --test test/host.test.mjs test/client.test.mjs   # 单元（宿主 mock ctx + 客户端 ModuleLoader 装载）
-node test/e2e-api.mjs <baseUrl> <token> <parentId> <plainId>          # 真实运行时 RPC 链路
-node test/seed-sessions.mjs <dshHome> <cwd> <count>                   # 为虚拟环境种子会话
-node test/e2e-ui.mjs <baseUrl> <token> <parentId> <plainId>           # Playwright 真实 UI 全链路
-```
-
 ## 结构
 
 ```
-lib/index.js    宿主半：路由、存储、fork 继承
-lib/client.js   客户端半：影子注册的收藏版 WorkspaceBrowser
-cordis.patch.yml 挂载行
-test/           单元 + API e2e + UI e2e + 种子脚本
+lib/index.js      宿主半：路由、存储、fork 继承
+lib/client.js     客户端半：影子注册的收藏版 WorkspaceBrowser
+cordis.patch.yml  挂载行
 ```
 
 ## License
