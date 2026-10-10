@@ -4,6 +4,16 @@ DSH 收藏插件：为工作区管理侧栏（`sidebar.workspaces`）增加会�
 
 > A DeepSeek Harness plugin that adds favorites (star) for sessions and workspaces, a favorites-only filter, a "hide unfavorites" display mode, top-pinning with hover metadata, star-color settings, and fork-time favorite inheritance.
 
+## 界面预览
+
+| 全部显示 | 只看收藏 | 隐藏未收藏 |
+|---|---|---|
+| <img src="docs/screenshots/show-all.png" width="255" /> | <img src="docs/screenshots/favourites-only.png" width="255" /> | <img src="docs/screenshots/hide-unfavourites.png" width="255" /> |
+
+| 视图选项 · 星标颜色 | 置顶行悬浮元信息 |
+|---|---|
+| <img src="docs/screenshots/view-menu.png" width="255" /> | <img src="docs/screenshots/pin-hover.png" width="420" /> |
+
 ## 功能
 
 1. **收藏**：工作区行与会话行悬停出现星标按钮（收藏后常亮）；行菜单里也有 收藏/取消收藏。收藏工作区**不会**自动收藏其内部会话。
