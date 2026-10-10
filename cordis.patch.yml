@@ -1,0 +1,4 @@
+# Bundle layer: inserts one host plugin row.
+- insert:
+    - id: dsh-favourite
+      name: '@xsj/dsh-favourite'
