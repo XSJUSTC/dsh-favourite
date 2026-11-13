@@ -4,6 +4,8 @@ DSH 收藏插件：为工作区管理侧栏（`sidebar.workspaces`）增加会�
 
 > A DeepSeek Harness plugin that adds favorites (star) for sessions and workspaces, a favorites-only filter, a "hide unfavorites" display mode, top-pinning with hover metadata, star-color settings, and fork-time favorite inheritance.
 
+> **支持 DSH 0.2.2**（含 0.2.x 宿主兼容层；Supports DSH 0.2.2 with a 0.2.x host compatibility layer）
+
 ## 界面预览
 
 | 全部显示 | 只看收藏 | 隐藏未收藏 |
